@@ -25,7 +25,7 @@ PixelOS is an AOSP-based custom ROM that brings the Pixel look and features, wit
 
 - **ROM zip:** [SourceForge](https://sourceforge.net/projects/pixelos-hanoip/files/)
 - **Fastboot images and source manifest:** [GitHub Releases](https://github.com/luizpaulo2005/pixelos-hanoip/releases)
-- **Support and discussion:** XDA thread (coming soon)
+- **Support and discussion:** [XDA thread](https://xdaforums.com/t/rom-16-unofficial-pixelos-16-for-motorola-moto-g60-hanoip.4807454/)
 
 | File | Use |
 |---|---|
