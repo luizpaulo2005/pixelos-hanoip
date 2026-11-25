@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="piano" fetch="https://github.com/PianoDev0" />
+  <remote name="jonash" fetch="https://github.com/jonashofficial" />
   <remote name="luiz" fetch="https://github.com/luizpaulo2005" />
-  <project path="device/motorola/hanoip" name="android_device_motorola_hanoip" remote="luiz" revision="16.0" />
-  <project path="vendor/motorola/hanoip" name="android_vendor_motorola_hanoip" remote="luiz" revision="16.0" />
-  <project path="kernel/motorola/sm6150" name="android_kernel_motorola_sm6150" remote="piano" revision="16.0" />
-  <project path="hardware/motorola" name="android_hardware_motorola" remote="piano" revision="16.0" />
+  <remote name="los" fetch="https://github.com/LineageOS" />
+  <project path="device/motorola/hanoip" name="android_device_motorola_hanoip" remote="luiz" revision="pixelos-17" />
+  <project path="vendor/motorola/hanoip" name="android_vendor_motorola_hanoip" remote="luiz" revision="pixelos-17" />
+  <project path="kernel/motorola/sm6150" name="android_kernel_motorola_sm6150" remote="jonash" revision="17.0" clone-depth="1" />
+  <project path="hardware/motorola" name="android_hardware_motorola" remote="jonash" revision="17.0" />
+  <project path="packages/apps/Seedvault" name="android_packages_apps_Seedvault" remote="los" revision="lineage-24.0" />
 </manifest>
