@@ -55,6 +55,21 @@ PixelOS is an AOSP-based custom ROM that brings the Pixel look and features, wit
 
 Please report other issues with logs.
 
+## Backup (Seedvault)
+
+Starting with the December 2026 builds, Seedvault is included and set as the
+default backup transport (after a clean install).
+After you sign in to a Google account, Google Play Services replaces the
+**Settings → System → Backup** entry with Google One, so that entry no longer
+opens Seedvault. Open Seedvault in one of these ways:
+
+- With an activity launcher app (e.g. *Activity Launcher*): Settings →
+  `com.android.settings.backup.UserBackupSettingsActivity`
+- Over adb: `adb shell am start -n com.android.settings/.backup.UserBackupSettingsActivity`
+
+Only one backup transport is active at a time. To switch back to Google backup:
+`adb shell bmgr transport com.google.android.gms/.backup.BackupTransportService`
+
 ## Installation
 
 Clean install, also required when coming from PixelOS 16. Your bootloader must be unlocked. **This wipes all your data.**
